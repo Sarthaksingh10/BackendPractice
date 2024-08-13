@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJS Tags</title>
+  </head>
+  <body>
+    <h1>
+      <%= title %>(👈 This is done from the ejs tag which gets data from
+      variable)
+    </h1>
+    <h3>
+      Seconds : <%= seconds %> (👈 This is done from the ejs tag which gets data
+      from variable)
+    </h3>
+
+    <% if (seconds%2===0) { %>
+    <ul>
+      <% items.forEach((item) => {%>
+      <li><%= item %></li>
+      <% })%>
+    </ul>
+    <%} else{%>
+    <p>No list to Display</p>
+    <%}%>
+
+    <p>
+      <%- htmlcontent %> (👈 This is done with the help of ejs tag which renders
+      html)
+    </p>
+    <p>
+      Note-EJS tag needs to get opened and closed in the same line otherwise it
+      will show error
+    </p>
+
+    <%- include("./footer.ejs")%>
+  </body>
+</html>
