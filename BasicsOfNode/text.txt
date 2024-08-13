@@ -1,0 +1,14 @@
+Hello world!! this is the Synchronous write file
+ 1721634244431 This is the example of append file
+
+ 1721634260577 This is the example of append file
+
+ 1721634269725 This is the example of append file
+
+ 1721642854388 This is the example of append file
+
+ 1721642867018 This is the example of append file
+
+ 1721642883272 This is the example of append file
+
+ 1721642931472 This is the example of append file
